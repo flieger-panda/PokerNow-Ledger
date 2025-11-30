@@ -1,5 +1,4 @@
-# Firebase Studio
+# PokerNow Ledger
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+Built w/ Firebase Studio.
+Deployed to Vercel (WIP)
