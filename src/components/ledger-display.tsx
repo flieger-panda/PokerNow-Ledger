@@ -103,9 +103,9 @@ export function LedgerDisplay({ code, transactions, players }: LedgerDisplayProp
               <TableBody>
                 {transactions.map((t, i) => (
                   <TableRow key={i}>
-                    <TableCell className="font-medium text-red-400">{t.from}</TableCell>
-                    <TableCell className="font-medium text-green-400">{t.to}</TableCell>
-                    <TableCell className="text-right">${t.amount.toFixed(2)}</TableCell>
+                    <TableCell className="text-lg font-medium text-red-400">{t.from}</TableCell>
+                    <TableCell className="text-lg font-medium text-green-400">{t.to}</TableCell>
+                    <TableCell className="text-lg text-right">${t.amount.toFixed(2)}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
